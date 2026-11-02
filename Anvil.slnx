@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/1. Core/">
+    <Project Path="Primitives/Primitives.csproj" />
+  </Folder>
+  <Folder Name="/2. Infrastructure/">
+    <Project Path="Security/Security.csproj" />
+    <Project Path="Persistence.Postgres/Persistence.Postgres.csproj" />
+    <Project Path="Scheduling.Quartz/Scheduling.Quartz.csproj" />
+    <Project Path="Messaging.Centrifugo/Messaging.Centrifugo.csproj" />
+    <Project Path="Http.Resilience/Http.Resilience.csproj" />
+  </Folder>
+  <Folder Name="/3. Testing &amp; Governance/">
+    <Project Path="Testing/Testing.csproj" />
+    <Project Path="ArchitectureTests/ArchitectureTests.csproj" />
+  </Folder>
+</Solution>
