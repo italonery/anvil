@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Anvil.Security</PackageId>
+    <RootNamespace>Anvil.Security</RootNamespace>
+    <Description>AES-256-GCM cryptography with PBKDF2-SHA256, sensitive data log redaction, password policy, and .env loader.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Primitives/Primitives.csproj" />
+  </ItemGroup>
+</Project>
