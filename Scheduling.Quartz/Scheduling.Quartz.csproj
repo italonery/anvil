@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Anvil.Scheduling.Quartz</PackageId>
+    <RootNamespace>Anvil.Scheduling.Quartz</RootNamespace>
+    <Description>Quartz.NET PostgreSQL scheduler abstractions with DI-scoped JobFactory and resilient retryable jobs.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Quartz" />
+    <PackageReference Include="Quartz.Serialization.Json" />
+    <PackageReference Include="Npgsql" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Primitives/Primitives.csproj" />
+  </ItemGroup>
+</Project>
