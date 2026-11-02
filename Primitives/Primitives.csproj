@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Anvil.Primitives</PackageId>
+    <RootNamespace>Anvil.Primitives</RootNamespace>
+    <Description>Zero-dependency core primitives: Entity&lt;TId&gt;, Result, Error, ErrorCode, FieldViolation, Period, and Span-based Brazilian validators.</Description>
+  </PropertyGroup>
+</Project>
