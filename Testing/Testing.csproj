@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Anvil.Testing</PackageId>
+    <RootNamespace>Anvil.Testing</RootNamespace>
+    <Description>Thread-safe fake data generators (CPF, CNPJ, Phone, Name, Email) for automated testing.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Primitives/Primitives.csproj" />
+  </ItemGroup>
+</Project>
